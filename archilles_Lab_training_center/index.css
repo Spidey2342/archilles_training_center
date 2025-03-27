@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    height: 70px;
+    background: #000000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo p{
+    color: white;
+    width: 100px;
+    position: relative;
+}
+.logo img{
+    height: 30px;
+}
+.new::after{
+    content: '';
+    width: 2px;
+    height: 20px;
+    background: #ffffff;
+    position: absolute;
+    right: 8px;
+
+}
+.btn{
+    height: 38px;
+    width: 160px;
+    background:#222222 ;
+    border-radius: 5px;
+    border: 1px solid white;
+    color: white;
+    margin-left: 8px;
+}
+.btn1{
+    height: 38px;
+    width: 100px;
+    background: #4c5fd5;
+    color: white;
+    border: none;
+    border-radius: 7px;
+}
+/* next */
+.help{
+    height: 35vh;
+    background: #dadbf1;
+}
+.cont{
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.text p{
+    font-size: 3em;
+}
+.search{
+    height: 42px;
+    width: 420px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    border: 1px solid black;
+    padding: 0 10px;
+    border-radius: 4px;
+}
+.search input{
+    background: transparent;
+    border: none;
+    color: #727171;
+    outline: none;
+}
+.search input:focus{
+    outline: none;
+    border: none;
+}
+/* next */
+.probs{
+    height: 80vh;
+}
+.imgs img{
+    height: 80px;
+}
+.main{
+    height: 200px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+.new1{
+    font-size: 12px;
+}
+.cont1{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+.cont1 p{
+    width: 280px;
+    margin-bottom: 8px;
+}
+.cont1 h5{
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+/* next */
+footer{
+    height: 35vh;
+    background: #000000;
+}
+.footer{
+    height: 25vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    color: #ffffff;
+    padding: 50px 0;
+}
+.links1 h5{
+    margin-bottom: 10px;
+}
+.links1 h5 a{
+    color: white;
+}
+.links1 ul{
+    margin-bottom: 25px;
+}
+.links{
+    margin-top: 120px;
+}
