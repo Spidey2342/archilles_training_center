@@ -90,7 +90,8 @@ header{
 }
 /* next */
 .probs{
-    height: 80vh;
+     height: auto;
+    padding: 0 0 100px 0;
 }
 .imgs img{
     height: 80px;
@@ -120,7 +121,7 @@ header{
 }
 /* next */
 footer{
-    height: 35vh;
+    height: 40vh;
     background: #000000;
 }
 .footer{
