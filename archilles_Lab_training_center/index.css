@@ -10,7 +10,8 @@ header{
     height: 70px;
     background: #000000;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap:60px;
     align-items: center;
 }
 .logo{
